@@ -22,10 +22,10 @@ end
 
 include SuuchiModule
 
-print "module名.function名\n"
+print "module名.function名によるmoduleの使い方\n"
 puts SuuchiModule.minvalue(10, 8)
 puts SuuchiModule.maxvalue(10, 8)
 
-print "function名\n"
+print "function名によるmoduleの使い方\n"
 puts minvalue(10, 8)
 puts maxvalue(10, 8)
