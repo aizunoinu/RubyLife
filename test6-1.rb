@@ -1,3 +1,4 @@
+#文字列がimg/を含んでいるかどうかを調べる正規表現
 #checkメソッド
 def check(str)
     print "#{str} は img/ に"

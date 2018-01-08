@@ -1,3 +1,4 @@
+#文字列にabcがあるかどうか検索する正規表現
 #checkメソッド
 def check(str)
     print "#{str} は /abc/ に"

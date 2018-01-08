@@ -1,3 +1,4 @@
+#行の先頭が一致しているかどうか調べる正規表現
 #checkメソッド
 def check(str)
     print "#{str} は ^abc に"

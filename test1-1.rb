@@ -1,6 +1,4 @@
-#文字コードを変換する際にrequireするライブラリ
-require "kconv"
-
+#文字列にeで始まりoで終わる文字列が含まれているかどうか検索する正規表現
 str = "Hello"
 
 if /e.*o/ =~ str then
