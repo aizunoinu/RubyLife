@@ -1,18 +1,8 @@
-require 'kconv'
+#文字列にeで始まりoで終わる文字列が含まれているかどうか検索する正規表現
+str = "Hello"
 
-#文字列から任意の一文字以外がマッチするかどうか確かめるプログラム
-def check(str)
-    if /ab.cd/ =~ str
-        print "#{str}は ab.cdとマッチします\n"
-    else
-        print "#{str}は ab.cdとマッチしません\n"
-    end
+if /e.*o/ =~ str then
+    print "eで始まりoで終わる文字列が含まれています\n"
+else
+    print "eで始まりoで終わる文字列が含まれていません\n"
 end
-
-#マッチする文字列
-check("abccd")
-check("abdcd")
-
-#マッチしない文字列
-check("abcccd")
-check("abddc")
